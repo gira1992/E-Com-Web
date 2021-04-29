@@ -1,0 +1,251 @@
+body{
+    background-color: rgba(165, 154, 154, 0.274);
+}
+
+/***************NAV******************/
+
+nav{
+    background-color: rgba(102, 48, 48, 0.349) ;
+    font-size: 1.3rem;
+}
+
+.navbar-nav li:hover{
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: #fff !important
+}
+
+.logo{
+    font-weight:500;
+    padding-left: 2em;
+}
+
+.logo span{
+    color:#fff;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: auto;
+}
+
+/***************NAV******************/
+
+/***************HEADER******************/
+header{
+    width: 100%;
+}
+
+.heading img{
+    width: 100%;
+    height: 300px;
+    object-position: center;
+    object-fit: cover;
+}
+
+/***************MAIN******************/
+
+.sub-title{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.main-page{
+    margin-bottom: 51px;
+}
+
+.main-page h2::after{
+    display: block;
+    width: 35%;
+    height: 2px;
+    content: ' ';
+    background-color: rgb(129, 36, 36);
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.priceOfProduct{
+    color: rgb(92, 54, 54);
+    border-left: 1px rgb(129, 36, 36) solid;
+    border-width: 2px;
+    padding-left: 1em;
+    margin-left: 1em;
+    font-weight: 400;
+}
+
+.description{
+    font-weight: 400;
+}
+
+
+#man{
+    position: relative;
+    top: 50%;
+    left: -30%;
+    color:#fff;
+    font-size:2em ;
+    font-weight: 500;
+}
+
+#woman{
+    position: relative;
+    top: 50%;
+    left: -30%;
+    color:#fff;
+    font-size:2em ;
+    font-weight: 300;
+}
+
+.season-container img{
+    width: 100%;
+}
+
+#access{
+    /* position: relative;
+    top: 30%;
+    left: -30%;
+    color:#fff; */
+    color:rgb(102, 48, 48) ;
+    font-size:2em ;
+    font-weight: 300;
+}
+
+/***************MAIN******************/
+
+/***************SOCIAL/FOOTER******************/
+
+.twitter, .pinterest, .facebook, .insta, .snap, .youtube{
+    color: rgb(102, 48, 48) ;
+}
+
+.twitter:hover{
+    color: rgb(90, 114, 221);
+}
+
+.pinterest:hover{
+    color: rgb(216, 24, 24);
+}
+
+.insta:hover{
+    color: purple;
+}
+
+.snap:hover{
+    color: rgb(199, 199, 12);
+}
+
+.youtube:hover{
+    color: red;
+}
+
+.content{
+    background-color: rgba(102, 48, 48, 0.349);
+    border-radius: 1em;
+}
+
+.customer-care-title{
+    border-bottom: #fff solid 1px ;
+}
+
+.content li{
+    list-style: none;
+    text-align: left;
+}
+
+.media-title{
+    border-bottom: 2px  rgb(102, 48, 48) solid;
+}
+
+.footer{
+    background-color: rgb(102, 48, 48);
+    font-size: 1em;
+    text-align: end;
+    padding-right: 2em;
+    color: #fff;
+}
+
+
+/******************* CONTACT SECTION ************/
+input, textarea, select{
+    width: 40%;
+    margin: 40px 0 0 0;
+    border: none;
+}
+
+label{
+    width: 50%; 
+    margin-right: -20%
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+   padding-left: 20%;
+    margin-bottom: 11%;
+    margin-top:    
+}
+
+.submitBtn{
+    width: 40%;
+    margin: 40px 0 0 0;
+    margin-left: 30%
+}
+
+
+
+/***************MEDIA Q******************/
+
+@media (max-width: 768px) {
+    .season-container{
+        margin-bottom: 2rem;
+        border-bottom: rgb(129, 36, 36) solid 1px;
+        padding-bottom: 1rem;
+    }
+
+    .main-page h2::after{
+       width: 70%;
+    }
+    
+    .customer-care-title{
+        font-size: 1.5em;
+        border-top: rgb(129, 36, 36) solid 1px;
+    }
+
+    #first{
+        border: none;
+    }
+
+    .product-header{
+        font-size:0.7em ;
+    }
+}
+
+
+
+@media (max-width:768px){
+    .season-container img{
+        width: 70%;
+    }
+}
+
+@media (max-width:540px){
+    .product-header{
+        font-size:0.5em ;
+    }
+
+    .btn-container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #clearCart, #buyCart{
+        margin:2px;
+    }
+}
