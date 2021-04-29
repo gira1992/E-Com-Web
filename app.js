@@ -47,7 +47,7 @@ let products = [   //array of objects
     },
     {
         name: "Grey Slim fit Shirt",
-        tag: "slimFittedGrey",
+        tag: "slimfittedGrey",
         price: 22,
         inCart: 0
     },
