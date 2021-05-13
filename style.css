@@ -145,6 +145,8 @@ header{
 .content{
     background-color: rgba(102, 48, 48, 0.349);
     border-radius: 1em;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .customer-care-title{
