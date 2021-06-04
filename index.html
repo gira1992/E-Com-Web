@@ -2,62 +2,597 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Base Apparel</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>My Portofilo</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/me.jpg" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <!-- Time Line File       <-->
+    <!--        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+    <link href="css/ogstyle.css" rel="stylesheet" />
+    <!-- Timeline CSS file       <-->
+    <link href="css/timeline.css" rel="stylesheet">
+    <!--        form stlye-->
+    <link rel="stylesheet" href="css/form.css">
+    <!--My Style        -->
+    <link href="css/mystyle.css" rel="stylesheet">
 </head>
 
-<body>
-  <section>
-    
-    <div class="container">
-      <nav>
-        <div class="logo"> <img src="./images/logo.svg" alt="logo"> </div>
-      </nav>
-
-      <div class="mobile-container">
-          <!-- <img src="./images/hero-mobile.jpg" alt="" srcset=""> -->
-      </div>
-    
-
-      <header>
-        <h1>
-          <span>Sale</span> coming <br> soon
-        </h1>
-      </header>
-      <div class="content">
-        <p>
-          Hello fellow shoppers! We're currently building our new fashion store.
-          Add your email below to stay up-to-date with announcements and our launch deals.
-        </p>
-        <form action="">
-          <input class="icon" type="text" placeholder="Email Address" name="email">
-          <button type="submit"> <i><img src="./images/icon-arrow.svg" alt="submit"></i></button>
-          <small class="error-msg"> </small>
-        </form>
-        <div class="shop-now-container">
-          <a href="./shop/shop.html"><button id="shop-button"> Shop Now</button></a>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="logoCon navbar-brand js-scroll-trigger" href="#page-top">JG</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+            <div class="collapse navbar-collapse navList" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item zoom"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item zoom"><a class="nav-link js-scroll-trigger" href="#timeLine">Experience</a></li>
+                    <li class="nav-item zoom"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item zoom"><a class="nav-link js-scroll-trigger" href="#work">Projects</a></li>
+                    <li class="nav-item zoom"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
+    </nav>
+
+    <!-- Masthead-->
+    <!-- <video src="/london-eye.mp4" loop muted autoplay></video> -->
+
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-subheading"> Hello, I'm</div>
+            <div class="masthead-heading text-uppercase typing"> </div>
+            <div class="masthead-subheading">Front-End Developer</div>
+        </div>
+    
+    </header>
+    <!-- About-->
+    <section class="page-section" id="about">
+        <div class="container contentBack">
+            <h2 class="section-heading text-uppercase sub-heading">About Me</h2>
+            <div class="aboutMeContent row">
+                <div class="img-container">
+                    <img src="assets/img/me.jpg" class="img-fluid about-me-img" alt="Justin Gira">
+                </div>
+
+                <p class="aboutBody"> My name is Justin Gira I'm 28 years old Front-End Developer based in London. I
+                    was born in Philippines and raised in London. I would describe myself as a passionate developer
+                    who is keen on improving and adapting my skills <span><i class="fas fa-code"></i></span>. <br>
+                    I have decided to rekindle my love for code as I found it the most rewarding knowing I have
+                    created a master piece.
+                    Currently developing my skills in C# and improving my skills on JavaScript. <br>
+
+                    Beside coding, I love going gym <span><i class="fas fa-dumbbell"></i></span>, playing basketball
+                    <span><i class="fas fa-basketball-ball"></i></span> and travelling <span><i
+                            class="fas fa-plane-departure"></i></span>
+                    <a class="btn btn-primary text-uppercase js-scroll-trigger cvBtn" href="assets/cv/myCV21.pdf"
+                        download>View My CV</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--      Time Line Section  -->
+    <section class="page-section" id="timeLine">
+        <div class="container contentBack">
+
+            <h2 class="section-heading text-uppercase sub-heading">Experience</h2>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline4">
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <span class="year">2020</span>
+                                <div class="inner-content">
+                                    <h3 class="title">Front End Developer</h3>
+                                    <p class="description"> <strong style="text-decoration: underline"> Currently
+                                            studying in JustIT</strong></p>
+                                    <ul>
+                                        <li class="description"> Understanding the concept of HTML, CSS and JavaScript,
+                                            allowing me to combine the skills to me help create some front end projects.
+                                        </li>
+                                        <li class="description"> Also the use of visual studio to create some backend
+                                            project using C# and .NET Framework. </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <span class="year">2019</span>
+                                <div class="inner-content">
+                                    <h3 class="title">Lorry Driver</h3>
+                                    <h2 class="title">2019 - 2020</h2>
+                                    <ul>
+                                        <li class="description">Allowing me to manage my time better </li>
+                                        <li class="description"> Meeting the customer requirements allowing me to grow
+                                            my independence
+                                            delivering in high standards.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <span class="year">2012</span>
+                                <div class="inner-content">
+                                    <h3 class="title">Duty Manager</h3>
+                                    <h2 class="title">2012 - 2019</h2>
+                                    <p class="description"> <strong style="text-decoration: underline">Icelands</strong>
+                                    </p>
+                                    <ul>
+                                        <li class="description"> Responsible for customer queries </li>
+                                        <li class="description"> Managing the team and ensuring the business is running
+                                            successfully </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <span class="year">2010</span>
+                                <div class="inner-content">
+                                    <h3 class="title">IT Practitioner</h3>
+                                    <h2 class="title">2010 - 2012</h2>
+                                    <p class="description"> <strong style="text-decoration: underline"> Barnet
+                                            College</strong> </p>
+                                    <ul>
+                                        <li class="description"> Studied IT Practitioner BTEC National Diploma Level 3
+                                        </li>
+                                        <li class="description"> Gained some knowledge in the computing world covering
+                                            from web development, database and computer systems. </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services-->
+    <section class="container contentBack" id="skills">
+        <h2 class="section-heading text-uppercase sub-heading"> Skills</h2>
+        <div class="container content">
+            <table class="table table-borderless text-center">
+                <thead>
+                    <th>
+                        Tech SKills
+                    </th>
+                    <th>
+                        Soft Skills
+                    </th>
+                </thead>
+                <tbody class="skills">
+                    <tr>
+                        <td>HTML5</td>
+                        <td> Communcation</td>
+                    </tr>
+                    <tr>
+                        <td> CSS3</td>
+                        <td> Team Player </td>
+                    </tr>
+                    <tr>
+                        <td> Bootstrap</td>
+                        <td>Self-Motivated </td>
+                    </tr>
+                    <tr>
+                        <td> JavaScript</td>
+                        <td> Organzied</td>
+                    </tr>
+                    <tr>
+                        <td>C#</td>
+                        <td>Hard-Working</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- Portfolio Grid-->
+    <section class="page-section bg-light myWork" id="work">
+        <div class="container contentBack">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase sub-heading">Projects</h2>
+            </div>
+            <div class="row skillsFlow">
+                <div class="skillsFlow projectFlow">
+                    <div class="portfolio-item col-lg-4">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                            <img class="img-fluid" src="assets/project4.png" alt="project-two" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">
+                                <a class="project-title" href="https://gira1992.github.io/loop-studio/"
+                                    target="_blank">Loop Studio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item col-lg-4">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                            <img class="img-fluid" src="assets/project2.png" alt="project-two" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">
+                                <a class="project-title" href="https://gira1992.github.io/E-Com-Web/"
+                                    target="_blank">E-Commerce</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item col-lg-4">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                            </div>
+                            <img class="img-fluid" src="assets/project3.png" width="150px" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">
+                                <a class="project-title" href="https://gira1992.github.io/weatherApp/"
+                                    target="_blank">Weather App</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="portfolio-item col-lg-4">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <img class="img-fluid" src="assets/project1.png" width="100%" alt="project-one" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading"><a class="project-title"
+                                    href="https://gira1992.github.io/project-one/" target="_blank">GoCanada</a></div>
+                        </div>
+                    </div> -->
+                    
+                    
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!--   Contact Section     -->
+    <section class="page-section white mb-4" id="contact">
+        <div class="container contentBack form-container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase sub-heading">Contact Me</h2>
+            </div>
+            <div class="container">
+                <!--Section: Contact v.2-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                        <form id="my-form" action="https://formspree.io/meqrndbb" method="POST" class="formCon">
+                            <!--Grid row-->
+                            <div class="row">
+                                <!--Grid column-->
+                                <div class="col-md-5 col-9">
+                                    <div class="md-form mb-0">
+                                        <label for="name" class="">Your name:</label>
+                                        <input type="text" id="name" name="name" class="form-control">
+
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-5 col-9">
+                                    <div class="md-form mb-0">
+                                        <label for="email" class="">Your email:</label>
+                                        <input type="text" id="email" name="email" class="form-control">
+
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-10 col-9">
+                                    <div class="md-form mb-0">
+                                        <label for="subject" class="">Subject:</label>
+                                        <input type="text" id="subject" name="subject" class="form-control">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-10 col-9">
+
+                                    <div class="md-form">
+                                        <label for="message">Your message:</label>
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea"></textarea>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--Grid row-->
+                            <br>
+                            <button id="my-form-button" class="btnForm">Submit</button>
+                            <div class="magic">
+                                <p id="my-form-status"></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footerOne row align-items-center">
+                <div class="text-lg-left footerCon">Copyright © Justin Gira 2020</div>
+                <div class="my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social" href="https://www.linkedin.com/in/justingira/" target="_blank"><i
+                            class="fab fa-linkedin fa-3x"></i></a>
+                    <a class="btn btn-dark btn-social mx-3" href="https://github.com/gira1992" target="_blank"><i
+                            class="fab fa-github-square fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Portfolio Modals-->
+    <!-- Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">GoCanada</h2>
+                                <p class="item-intro">Explore The Best Part of North America</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/project1.png" alt="project one"
+                                    style="object-fit: contain" />
+                                <p> Tech Used:HTML/CSS/JavaScript/BootStrap <br>
+                                    This project is about travelling around Canada and exploring for yorself the best
+                                    parts, the most recommended places, accomdates for all ages, fun activites for
+                                    everyone <br>
+                                    Check my <a href="https://gira1992.github.io/project-one/" target="_blank">DEMO
+                                        Website</a>
+                                </p>
+                                
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="img-container">
-      <!-- <img src="./images/hero-desktop.jpg" alt=""> -->
+    <!-- Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">FashionNova</h2>
+                                <p class="item-intro">E-Com Website</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/project2.png"
+                                    style="object-fit: contain" alt="" />
+                                <p> Tech Used: HTML/CSS//Bootstrap/JavaScript
+                                    <br>
+                                    Created a E-commerce website which allows the user to add products to the cart and keeps track
+                                    of how many products the user added. Able to clear cart and sum up the total. <br>
+                                    Check my <a href="https://gira1992.github.io/E-Com-Web/" target="_blank">DEMO
+                                        Website</a><br>
+                                        <a href="https://github.com/gira1992/E-Com-Web" style="color: rgb(31, 27, 27);"><i class="fab fa-github fa-2x"></i></a>
+                                </p>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
-  <!-- <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Justin Gira</a>.
-    </p>
-  </footer> -->
+    <!-- Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Weather App</h2>
+                                <p class="item-intro"> Check the Current Weather </p>
+                                <img class="img-fluid d-block mx-auto" src="assets/project3.png" alt=""
+                                    style="object-fit: contain" />
+                                <p> Tech Used: HTML/CSS/JavaScript/API
+                                    <br>
+                                    Created a weather app using API allowing the user to type in a city or country
+                                    and to find out the temp, weather description and hi and low temp of the day.
+                                    <br> Check My <a href="https://gira1992.github.io/weatherApp/" target="_blank">
+                                        Weather App</a> <br>
+                                        <a href="https://github.com/gira1992/weatherApp" style="color: rgb(31, 27, 27);"><i class="fab fa-github fa-2x"></i></a>
+                                </p>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
 
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Loop Studio</h2>
+                                <p class="item-intro"> VR Players </p>
+                                <img class="img-fluid d-block mx-auto" src="assets/project4.png" alt=""
+                                    style="object-fit: contain" />
+                                <p> Tech Used: HTML/CSS/JavaScript/
+                                    <br>
+                                    Handcoded responsive website without using any frameworks. Delivering a modern professional looking website
+                                    <br> Check My <a href="https://gira1992.github.io/loop-studio/" target="_blank">
+                                        Loop Studio</a>
+                                        <br>
+                                        <a href="https://github.com/gira1992/loop-studio" style="color: rgb(31, 27, 27);"><i class="fab fa-github fa-2x"></i></a>
+                                </p>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-inline">
+                                    <li>Date: January 2020</li>
+                                    <li>Client: Southwest</li>
+                                    <li>Category: Website Design</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-inline">
+                                    <li>Date: January 2020</li>
+                                    <li>Client: Window</li>
+                                    <li>Category: Photography</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 
-  <script src="./app.js"></script>
-</body>
+    <!--  Form JS      -->
+    <script src="js/form.js"> </script>
 
+    <!-- Time Line    -->
+    <!--    
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        
+
+        
+ 
+    </body>
 </html>
