@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Apparel</title>
+    <!--  GOOGLE FONTS  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome icons -->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./shop.css">
+
+</head>
+
+<body>
+    <div class="nav-container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <div class="logo"> <img src="../images/logo.svg" alt="logo"> </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html" aria-haspopup="true" aria-expanded="false">
+                            Product
+                        </a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li> -->
+                </ul>
+
+                <button id="cart" class="btn btn-light myBtn"><i class="fas fa-shopping-cart"></i> <span>0</span>
+                </button>
+            </div>
+        </nav>
+        <div class="mini-nav-container">
+            <ul class="mini-nav">
+                <li> <a href="#men"> MEN</a> </li>
+                <li> <a href="#women"> WOMEN</a> </li>
+                <li> <a href="#acc"> accessories </a> </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content product-container container">
+            <span style="text-align: end" class="close">&times;</span>
+            <div class="product-header row text-center">
+                <p class="product-title col-3"> Products</p>
+                <p class="price col-3">Price</p>
+                <p class="quantity col-3"> Quantity</p>
+                <p class="total col-3"> Total</p>
+            </div>
+            <div class="product-body products row text-center">
+                <!-- <div class="product"> </div>-->
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-danger clearCart"> Clear Cart</button>
+                <button class="btn btn-success buyCart"> Pay Now</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--    MEN    -->
+    <section class="container" id="men">
+        <div class="title"> MEN </div>
+        <div class="row mb-4 text-center model-container justify-content-around">
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/Men/blackjoggers.jpg">
+                </div>
+                <div class="wrapperCart shopDetails">
+                    <div class="sub-title"> Black Slim Jogger</div>
+                    <p class="itemPrice"> £110</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/Men/slimfiitedBlack.jpg">
+                </div>
+                <div class="wrapperCart shopDetails">
+                    <div class="sub-title"> Slim Black Man T</div>
+                    <p class="itemPrice">£25</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/Men/whiteJumper.jpg">
+                </div>
+                <div class="wrapperCart shopDetails">
+                    <div class="sub-title"> White Jumper</div>
+
+                    <p class="itemPrice"> £21</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart
+
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4 text-center model-container justify-content-around">
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/Men/waterproofJacket.jpg">
+                </div>
+                <div class="wrapperCart shopDetails">
+                    <div class="sub-title"> Blue Waterproof Jacket</div>
+                    <p class="itemPrice"> £65</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/Men/slimfittedGrey.jpg">
+                </div>
+                <div class="wrapperCart shopDetails">
+                    <div class="sub-title"> Grey fitted long sleeve</div>
+                    <p class="itemPrice"> £22</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/Men/pinkShirt.jpg">
+                </div>
+                <div class="wrapperCart shopDetails">
+                    <div class="sub-title"> Pink Pinapple Shirt</div>
+                    <p class="itemPrice"> £55</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    WOMEN-->
+    <section class="container" id="women">
+        <div class="title"> WOMEN </div>
+        <div class="row mb-4 text-center model-container justify-content-around">
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/women/WhiteDress.jpg">
+                </div>
+                <div class="wrapperCart">
+                    <div class="sub-title"> White Breezy Dress</div>
+                    <p class="itemPrice"> £30</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart </button>
+                </div>
+            </div>
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/women/Whiteblazer.jpg">
+                </div>
+                <div class="wrapperCart">
+                    <div class="sub-title"> White Blazer</div>
+                    <p class="itemPrice"> £19</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart </button>
+                </div>
+            </div>
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/women/Greytracksuit.jpg">
+                </div>
+                <div class="wrapperCart">
+                    <div class="sub-title"> Grey Tracksuit</div>
+                    <p class="itemPrice"> £39</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4 text-center model-container justify-content-around">
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/women/summer.jpg">
+                </div>
+                <div class="wrapperCart">
+                    <div class="sub-title"> Summer Pink Blouse</div>
+                    <p class="itemPrice"> £29</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/women/BlackJeggers.jpg">
+
+                </div>
+                <div class="wrapperCart">
+                    <div class="sub-title"> Black Jeggers</div>
+                    <p class="itemPrice"> £15</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart</button>
+                </div>
+            </div>
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/women/Pinkslik.jpg">
+
+                </div>
+                <div class="wrapperCart">
+                    <div class="sub-title"> Pink Silk Dress</div>
+                    <p class="itemPrice"> £22</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    ACC-->
+    <section class="container" id="acc">
+        <div class="title"> Accessories</div>
+        <div class="row mb-4 text-center model-container justify-content-around">
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/Acc/crystalbluewatch.jpg">
+                </div>
+                <div class="wrapperCart">
+                    <div class="sub-title"> Crystal Blue Watch</div>
+                    <p class="itemPrice"> £19</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart </button>
+                </div>
+            </div>
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/Acc/butterfly.jpg">
+                </div>
+                <div class="wrapperCart">
+                    <div class="sub-title"> Butterfly Necklace</div>
+                    <p class="itemPrice">£25</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="card model col-md-3 mb-4 mb-md-1">
+                <div class="imgHover">
+                    <img class="img-fluid" src="fashion/Acc/blackcap.jpg">
+                </div>
+                <div class="wrapperCart shopDetails">
+                    <div class="sub-title"> Black Fred Perry Cap</div>
+                    <p class="itemPrice"> £21</p>
+                    <button class="add-to-cart btn btn-primary"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="media row text-center">
+            <h4 class="col-12 media-title"> Follow us </h4>
+            <span class="col-2 social">
+                <a href="#" class="insta" target="_blank">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+            </span>
+            <span class="col-2 social">
+                <a href="#" class="facebook" target="_blank">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+            </span>
+            <span class="col-2 social">
+                <a href="#" class="twitter" target="_blank">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+            </span>
+            <span class="col-2 social">
+                <a href="#" class="pinterest" target="_blank">
+                    <i class="fab fa-pinterest fa-2x"></i>
+                </a>
+            </span>
+            <span class="col-2 social">
+                <a href="#" class="snap" target="_blank">
+                    <i class="fab fa-snapchat fa-2x"></i>
+                </a>
+            </span>
+
+            <span class="col-2 social">
+                <a href="#" class="youtube" target="_blank">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+            </span>
+        </div>
+
+        <div class="row mt-3 text-center content">
+            <div class="company col-md-4">
+                <h4 id="first" class="customer-care-title"> COMPANY INFO</h4>
+                <ol>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Wanna Collab?</li>
+                    <li>Promo</li>
+                    <li>Press</li>
+                    <li> All Collections</li>
+                </ol>
+            </div>
+
+            <div class="company col-md-4">
+                <h4 class="customer-care-title"> CUSTOMER CARE</h4>
+                <ol>
+                    <li> Track My Order</li>
+                    <li> Help</li>
+                    <li> Returns</li>
+                    <li> Shipping</li>
+                    <li> FAQ</li>
+                    <li> Contact Us</li>
+                </ol>
+            </div>
+
+            <div class="company col-md-4">
+                <h4 class="customer-care-title"> QUICK LINKS</h4>
+                <ol>
+                    <li> My Account</li>
+                    <li> Gift Cards</li>
+                    <li> Store Locations</li>
+                    <li> Discounts</li>
+                    <li> Reviews</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer mb-0">
+        <p class="lead">&copy; Justin Gira 2020</p>
+    </footer>
+    <script>
+
+    </script>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
